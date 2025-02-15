@@ -1,0 +1,7 @@
+services:
+  hono-tasks:
+    image: hono-tasks
+    ports:
+      - "8805:8805"
+    volumes:
+      - ./db:/app/db
